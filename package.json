@@ -1,0 +1,26 @@
+{
+  "name": "netlify-lambda",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.3",
+    "netlify-lambda": "^2.0.15",
+    "serverless-http": "^2.7.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "./node_modules/.bin/netlify-lambda serve src",
+    "build": "./node_modules/.bin/netlify-lambda build src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davson1217/netlify-lambda.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davson1217/netlify-lambda/issues"
+  },
+  "homepage": "https://github.com/davson1217/netlify-lambda#readme"
+}
